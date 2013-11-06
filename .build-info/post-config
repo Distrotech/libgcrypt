@@ -1,0 +1,3 @@
+#!/bin/bash
+
+touch ../doc/*.eps ../doc/*.pdf
