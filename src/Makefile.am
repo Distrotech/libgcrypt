@@ -73,7 +73,7 @@ SUFFIXES = .rc .lo
 
 gcrypt_res = versioninfo.lo
 no_undefined = -no-undefined
-export_symbols = -export-symbols $(srcdir)/libgcrypt.def
+export_symbols = #-export-symbols $(srcdir)/libgcrypt.def
 
 install-def-file:
 	$(INSTALL) $(srcdir)/libgcrypt.def $(DESTDIR)$(libdir)/libgcrypt.def
